@@ -1,0 +1,259 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/background.jpg);
+    background-size: auto;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D4D4D4;
+}
+
+/* -------Start header---------- */
+header
+{
+    margin: 10px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.nav-var
+{
+   height: 80px;
+}
+
+.logo_header
+{
+    margin: 10px 50px;
+    height: 80px;
+
+}
+
+.logo_header:hover
+{
+    background-color:black ;
+
+}
+
+.menu
+{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li
+{
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.menu li a
+{
+    color: #D4D4D4;
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px; 
+}
+
+.Home:hover
+{
+    background-color: #569CD6 ;
+    color: #1E1E1E;
+    font-weight: bold;
+}
+
+.Blog:hover
+{
+    background-color: #9CDCFE ;
+    color: #1E1E1E;
+}
+
+.Portfolio:hover
+{
+    background-color: #CE9178 ;
+    color: #1E1E1E;  
+}
+
+.Contact:hover
+{
+    background-color: #D4D4D4 ;
+    color: #1E1E1E;
+}
+
+span
+{
+    font-weight: bold;
+    
+}
+
+.color1
+{
+    color: #569CD6 ;
+    
+}
+
+.color2
+{
+    color: #9CDCFE ;
+}
+
+.color3
+{
+    color: #CE9178 ;
+}
+
+/* -------Finish header---------- */
+
+/* -------Start Content---------- */
+
+.logo
+{
+    width: 400px;
+    margin: auto;
+    display: block;
+
+}
+
+.forma
+{
+    fill:none;
+    fill-opacity:1;
+    stroke-width:0.5;
+    stroke-dashoffset: 0;
+ }
+
+
+.forma1
+{
+    
+    stroke:#569cd6;
+    stroke-dasharray: 100;
+    animation: forma1 5s linear forwards;
+}
+@keyframes forma1
+{
+    0%
+    {
+        stroke-dashoffset: 100;
+        fill: none;
+    }
+    100%
+    {
+        stroke-dashoffset: 0;
+        fill:#569cd6; 
+    }
+}
+.forma2
+{
+    stroke:#569cd6;
+    stroke-dasharray: 100;
+    animation: forma2 5s linear forwards;
+}
+@keyframes forma2
+{
+    0%
+    {
+        stroke-dashoffset: 100;
+        fill: none;
+    }
+    100%
+    {
+        stroke-dashoffset: 0;
+        fill:#569cd6; 
+    }
+}
+.forma3
+{
+    stroke:#9CDCFE;
+    stroke-dasharray: 300;
+    animation: forma3 6s linear forwards;
+ }
+@keyframes forma3
+{
+    0%
+    {
+        stroke-dashoffset: 300;
+        fill: none;
+    }
+    100%
+    {
+        stroke-dashoffset: 0;
+        fill:#9CDCFE; 
+    }
+}
+
+.forma4
+{
+    stroke:#CE9178;
+    stroke-dasharray: 300;
+    animation: forma4 7s linear forwards;
+}
+@keyframes forma4
+{
+    0%
+    {
+        stroke-dashoffset: 300;
+        fill: none;
+    }
+    100%
+    {
+        stroke-dashoffset: 0;
+        fill:#CE9178; 
+    }
+}
+
+.forma5
+{
+    stroke:#CE9178;
+    stroke-dasharray: 200;
+    animation: forma5 8s linear forwards;
+}
+@keyframes forma5
+{
+    0%
+    {
+        stroke-dashoffset: 200;
+        fill: none;
+    }
+    100%
+    {
+        stroke-dashoffset: 0;
+        fill:#CE9178; 
+    }
+}
+
+.message
+{
+    /* position: relative; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D4D4D4;
+    top: 100px;
+}
+/* -------Finish Content---------- */
+/* -------Start Footer---------- */
+.copy
+{
+    text-decoration: none;
+    color: #D4D4D4;
+    margin: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.copy span
+{
+    font-size: 1.1em;
+}
+/* -------Finish Footer---------- */
+
+
